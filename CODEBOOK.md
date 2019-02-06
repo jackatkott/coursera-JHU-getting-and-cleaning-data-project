@@ -1,7 +1,10 @@
-| Getting and Cleaning Data Course Project |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+| Getting and Cleaning Data Course Project                                                                                                                                                                                                                |                                              |   |   |   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|---|---|---|
+| Coursera                                                                                                                                                                                                                                                | Johns Hopkins University                     |   |   |   |
+|                                                                                                                                                                                                                                                         |                                              |   |   |   |
+| Project                                                                                                                                                                                                                                                 | Human Activity Recognition Using Smartphones |   |   |   |
+|                                                                                                                                                                                                                                                         |                                              |   |   |   |
+| Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto. Smartlab - Non Linear Complex Systems Laboratory DITEN - Universit‡ degli Studi di Genova. Via Opera Pia 11A, I-16145, Genoa, Italy. activityrecognition@smartlab.ws www.smartlab.ws |                                              |   |   |   |
 
 
 The structure of the data set is described in the [Data](#data) section, its variables are listed in the [Variables](#variables) section, and the transformations that were carried out to obtain the data set based on the source data are presented in the [Transformations](#transformations) section.
