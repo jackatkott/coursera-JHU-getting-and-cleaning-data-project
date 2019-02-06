@@ -1,18 +1,19 @@
-![alt text](https://github.com/jackatkott/coursera-JHU-getting-and-cleaning-data-project/blob/master/activity-grafik.png)
+![Human Activity Recognition with Smartphones - Getting and Cleaning Data Course Project from Johns Hopkins University by Coursera](https://github.com/jackatkott/coursera-JHU-getting-and-cleaning-data-project/blob/master/activity-grafik.png)
 
-# coursera-JHU-getting-and-cleaning-data-project
-Human Activity Recognition with Smartphones - Getting and Cleaning Data Course Project from Johns Hopkins University by Coursera 
+# Human Activity Recognition with Smartphones - Getting and Cleaning Data Course Project from Johns Hopkins University by Coursera 
+One of the most exciting areas in all of data science right now is wearable computing - see for example [this article](http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/). Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users.
+
+In this project, data collected from the accelerometer and gyroscope of the Samsung Galaxy S smartphone was retrieved, worked with, and cleaned, to prepare a tidy data that can be used for later analysis.
 
 
-# Getting and cleaning data - project description
 ## Context
-This file is part of the project for Coursera Course "Getting and Cleaning Data" 
+This data set is motivated by the course project of Getting and Cleaning Data from Coursera John Hopkins University Data Science Special Section. This repository hosts the R code and documentation files for the project.
+
 ## Purpose
-The purpose of this project is to demonstrate the  ability to collect, work with, and clean a data set. 
-The goal is to prepare tidy data that can be used for later analysis. 
+The purpose of the project is to obtain tidy dataset by collecting, working with, and cleaning a raw data set. The goal is to prepare tidy data that can be used for later analysis. 
 
 # The original data
-The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. This kind of data coming from wearable computing is used by companies like Fitbit, Nike, and Jawbone Up racing to develop the most advanced algorithms to attract new users. A full description is available at the site where the data was obtained:
+The original data set is obtained from the Human Activity Recognition Using Smartphones Data Set in UCI Machine Learning Repository. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. This kind of data coming from wearable computing is used by companies like Fitbit, Nike, and Jawbone Up racing to develop the most advanced algorithms to attract new users. A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The data for the project are in the following zip file :
@@ -23,7 +24,7 @@ The details of the files included in the zipped file are available in the CodeBo
 ## Processing
 I created the script "run_analysis.R" which does the following:
 1. It merges the training and the test sets to create one data set.
-=> The files used are txt files in the unzipped directories "train" and "test" with names starting with "subject_" with subject IDs, "X_" with measurments and "y_" with labels. They are read seperately and then bound together for "test" and "train" and finally bound together to form "alldata".
+=> The files used are txt files in the unzipped directories "train" and "test" with names starting with "subject_" with subject IDs, "X_" with measurements and "y_" with labels. They are read seperately and then bound together for "test" and "train" and finally bound together to form "alldata".
 
 2. It extracts only the columns that include the measurements on the mean and standard deviation for each measurement, together with the key columns presenting the subject ID and the Activity.
 => The columns extracted are those having the terms mean() or std() in the name of the variable. The "fixed" parameter is used to exclude cases like meanFreq(). 
@@ -36,17 +37,13 @@ I created the script "run_analysis.R" which does the following:
 
 5. From the data set in step 4, it creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# Files submitted
+## Files submitted
 The following files have been included in this repo: 
 1) the script "run_analysis.R" 
 2) a code book "CodeBook.wd" that describes the variables, the data, and 
-3) the tidy data set "tidy.txt" produced by the script as indicated below, 
+3) the tidy data set "TidyData.txt" produced by the script as indicated below, 
 4) the present "README.wd" file
 
-#Packages required
+## Packages required
 The only extra package that is used is data.table. This is attached by the first command. If it is not installed then it should be installed. 
 
-##Note 1
-At the end of the processing a message is printed informing the user.
-##Note 2
-At the end the global environment is cleaned.  
