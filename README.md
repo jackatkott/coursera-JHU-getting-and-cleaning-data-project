@@ -12,7 +12,7 @@ This data set is motivated by the course project of Getting and Cleaning Data fr
 ## Purpose
 The purpose of the project is to obtain tidy dataset by collecting, working with, and cleaning a raw data set. The goal is to prepare tidy data that can be used for later analysis. 
 
-# The original data
+## The original data
 The original data set is obtained from the Human Activity Recognition Using Smartphones Data Set in UCI Machine Learning Repository. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. This kind of data coming from wearable computing is used by companies like Fitbit, Nike, and Jawbone Up racing to develop the most advanced algorithms to attract new users. A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
@@ -23,17 +23,13 @@ The details of the files included in the zipped file are available in the CodeBo
 
 ## Processing
 I created the script "run_analysis.R" which does the following:
-1. It merges the training and the test sets to create one data set.
-=> The files used are txt files in the unzipped directories "train" and "test" with names starting with "subject_" with subject IDs, "X_" with measurements and "y_" with labels. They are read seperately and then bound together for "test" and "train" and finally bound together to form "alldata".
+1. It merges the training and the test sets to create one data set. The files used are txt files in the unzipped directories "train" and "test" with names starting with "subject_" with subject IDs, "X_" with measurements and "y_" with labels. They are read seperately and then bound together for "test" and "train" and finally bound together to form "alldata".
 
-2. It extracts only the columns that include the measurements on the mean and standard deviation for each measurement, together with the key columns presenting the subject ID and the Activity.
-=> The columns extracted are those having the terms mean() or std() in the name of the variable. The "fixed" parameter is used to exclude cases like meanFreq(). 
+2. It extracts only the columns that include the measurements on the mean and standard deviation for each measurement, together with the key columns presenting the subject ID and the Activity. The columns extracted are those having the terms mean() or std() in the name of the variable. The "fixed" parameter is used to exclude cases like meanFreq(). 
 
-3. Uses descriptive activity names to name the activities in the data set.
-=> For this purpose the file activity_labels.txt is used.
+3. Uses descriptive activity names to name the activities in the data set. For this purpose the file activity_labels.txt is used.
 
-4. Appropriately labels the data set with descriptive variable names.
-=> The replacement uses the structure of the variable names. It has been developed and tested using the features.txt file. 
+4. Appropriately labels the data set with descriptive variable names. The replacement uses the structure of the variable names. It has been developed and tested using the features.txt file. 
 
 5. From the data set in step 4, it creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
@@ -46,4 +42,3 @@ The following files have been included in this repo:
 
 ## Packages required
 The only extra package that is used is data.table. This is attached by the first command. If it is not installed then it should be installed. 
-
