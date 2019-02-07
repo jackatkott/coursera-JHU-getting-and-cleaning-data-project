@@ -44,4 +44,4 @@ The following files have been included in this repo:
 ## Packages required
 The only extra package that is used is data.table. This is attached by the first command. If it is not installed then it should be installed. 
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+[![Watch the video](https://img.youtube.com/vi/<VIDEO ID>/hqdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
