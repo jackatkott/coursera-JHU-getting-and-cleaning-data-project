@@ -43,3 +43,5 @@ The following files have been included in this repo:
 
 ## Packages required
 The only extra package that is used is data.table. This is attached by the first command. If it is not installed then it should be installed. 
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
