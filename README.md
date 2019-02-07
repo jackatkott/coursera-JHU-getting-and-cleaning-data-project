@@ -21,6 +21,8 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 When unzipped they are included in the working directory, in the folder "UCI HAR Dataset". 
 The details of the files included in the zipped file are available in the CodeBook, based on the file features.txt which has been made usin. This folder comprises two more folders named "train" and "test" where the data to be used for the analysis are incuded. These folders include also a folder called "Inertial Signals" which is not included in the dataset.
 
+![Executing the R code in RStudio](https://github.com/jackatkott/coursera-JHU-getting-and-cleaning-data-project/blob/master/GetAndCleanData.gif)
+
 ## Processing
 I created the script "run_analysis.R" which does the following:
 1. It merges the training and the test sets to create one data set. The files used are txt files in the unzipped directories "train" and "test" with names starting with "subject_" with subject IDs, "X_" with measurements and "y_" with labels. They are read seperately and then bound together for "test" and "train" and finally bound together to form "alldata".
@@ -44,7 +46,6 @@ The following files have been included in this repo:
 ## Packages required
 The only extra package that is used is data.table. This is attached by the first command. If it is not installed then it should be installed. 
 
-![Output sample](https://github.com/jackatkott/coursera-JHU-getting-and-cleaning-data-project/blob/master/GetAndCleanData.gif)
 
 ## License:
 
