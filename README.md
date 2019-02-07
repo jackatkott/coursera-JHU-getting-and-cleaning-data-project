@@ -12,6 +12,13 @@ This repository contains my work for the course project for the Coursera course 
 ## Purpose
 The purpose of the project is to obtain tidy dataset by collecting, working with, and cleaning a raw data set. The goal is to prepare tidy data that can be used for later analysis. 
 
+## Instructors
+The course is taught by: 
+ 
+  - Jeff Leek, Phd 
+  - Roger D. Peng, Phd
+  - Brian Caffo, Phd
+
 ## The original data
 The original data set is obtained from the Human Activity Recognition Using Smartphones Data Set in UCI Machine Learning Repository. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. This kind of data coming from wearable computing is used by companies like Fitbit, Nike, and Jawbone Up racing to develop the most advanced algorithms to attract new users. A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
