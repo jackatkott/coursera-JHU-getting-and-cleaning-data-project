@@ -41,7 +41,8 @@ The following files have been included in this repo:
 2) a code book "CodeBook.wd" that describes the variables, the data, and 
 3) the tidy data set "TidyData.txt" produced by the script as indicated below, 
 4) the present "README.md" file
-5) an image for the repo page.
+5) activity-grafik.png - just an image for the repo page.
+6) GetAndCleanData.gif - a documentation video 
 
 ## Packages required
 The only extra package that is used is data.table. This is attached by the first command. If it is not installed then it should be installed. 
