@@ -7,7 +7,7 @@ In this project, data collected from the accelerometer and gyroscope of the Sams
 
 
 ## Context
-This data set is motivated by the course project of Getting and Cleaning Data from Coursera John Hopkins University Data Science Special Section. This repository hosts the R code and documentation files for the project.
+This repository contains my work for the course project for the Coursera course "Getting and Cleaning data", part of the Data Science specialization from Coursera by Johns Hopkins University. This repository hosts the R code and documentation files for the project.
 
 ## Purpose
 The purpose of the project is to obtain tidy dataset by collecting, working with, and cleaning a raw data set. The goal is to prepare tidy data that can be used for later analysis. 
